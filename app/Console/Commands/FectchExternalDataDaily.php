@@ -10,6 +10,7 @@ use App\Models\Torrent;
 use App\Models\TorrentDetail;
 use App\Models\TorrentScreenshot;
 use App\Models\TorrentMediaInfo;
+use App\Models\Category;
 use DateTime;
 use Carbon\Carbon;
 class FectchExternalDataDaily extends Command
