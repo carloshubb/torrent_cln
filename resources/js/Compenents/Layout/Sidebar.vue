@@ -1,8 +1,8 @@
 <template>
-  <div class="space-y-6">
+  <div class="space-y-6 ml-8 w-70 mt-5">
           <!-- Browse Torrents -->
           <div class="bg-gray-800 rounded-lg overflow-hidden shadow-xl">
-            <div class="bg-gradient-to-r from-orange-600 to-red-600 px-4 py-3">
+            <div class="bg-gradient-to-r from-orange-500 to-gray-500 px-4 py-3">
               <h3 class="text-white font-bold">BROWSE TORRENTS</h3>
             </div>
             <div class="p-4 space-y-2">
@@ -22,8 +22,8 @@
 
           <!-- Links -->
           <div class="bg-gray-800 rounded-lg overflow-hidden shadow-xl">
-            <div class="bg-gradient-to-r from-orange-600 to-red-600 px-4 py-3">
-              <h3 class="text-white font-bold">1337X LINKS</h3>
+            <div class="bg-gradient-to-r from-orange-500 to-gray-500 px-4 py-3">
+              <h3 class="text-white font-bold">1331X LINKS</h3>
             </div>
             <div class="p-4 space-y-2">
               <div 
@@ -120,8 +120,8 @@ export default {
     ]
 
     const externalLinks = [
-      '1337x Status',
-      '1337x Chat',
+      '1331x Status',
+      '1331x Chat',
       'Torrent9',
       'uTrix',
       'Njalla',
@@ -183,6 +183,6 @@ export default {
 <style scoped>
 /* Add any component-specific styles here if needed */
 .bg-gray-750 {
-  background-color: rgb(55, 65, 81, 0.5);
+  background-color: rgba(168, 174, 185, 0.5);
 }
 </style>

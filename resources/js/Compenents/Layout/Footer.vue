@@ -1,8 +1,8 @@
 <template>
-  <footer class="bg-orange-600 py-2 mt-8">
+  <footer class="bg-sky-500 py-2 mt-8">
     <div class="max-w-7xl mx-auto px-4">
       <div class="flex justify-center space-x-4 text-white text-sm">
-        <a href="#" class="hover:text-gray-200">1</a>
+        <a href="#" class="hover:text-orange-800">1</a>
         <a href="#" class="hover:text-gray-200">2</a>
         <a href="#" class="hover:text-gray-200">3</a>
         <a href="#" class="hover:text-gray-200">4</a>
@@ -33,7 +33,7 @@
         <a href="#" class="hover:text-gray-200">DMCA</a>
         <a href="#" class="hover:text-gray-200">CONTACT</a>
       </div>
-      <p>1337x 2007 - 2025</p>
+      <p>1331x 2007 - 2025</p>
     </div>
   </footer>
 </template>

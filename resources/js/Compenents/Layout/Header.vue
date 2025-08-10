@@ -1,12 +1,21 @@
 <template>
   <header class="bg-gray-800 border-b border-gray-700">
-    <div class="bg-black/80 backdrop-blur-sm border-b border-orange-500/30">
+    <!-- Top Bar -->
+    <div class="min-h-[40px] bg-[#000] border-b-5 border-[#822a0b] items-center ">
+    <div class="mx-auto w-full grid-cols-1 gap-10 container text-right ">
+      <a href="" class="title text-white hover:text-red-600">Register</a>
+      |
+      <a href="" class="title text-red-600 hover:text-red-600">Login</a>
+    </div>
+  </div>
+    <!-- Header -->
+    <div class="bg-black/20 backdrop-blur-sm border-b border-orange-500/50">
       <div class="max-w-7xl mx-auto px-4">
           
         <!-- Main Header -->
         <div class="flex items-center justify-between py-4">
           <div class="text-4xl font-bold text-white">
-            1337<span class="text-orange-500">X</span>
+            1331<span class="text-orange-500">X</span>
           </div>
           
           <div class="flex items-center space-x-2 flex-1 max-w-md mx-8">
@@ -18,7 +27,7 @@
             />
             <button 
               @click="handleSearch"
-              class="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2 rounded-r transition-colors flex items-center"
+              class="bg-orange-500 hover:bg-orange-800 text-white px-6 py-2 rounded-r transition-colors flex items-center"
             >
               <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m21 21-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>

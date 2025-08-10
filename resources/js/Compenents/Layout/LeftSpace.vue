@@ -1,5 +1,5 @@
 <template>
-  <aside class="basis-76 bg-gray-800 border-r border-gray-700">
+  <aside class="basis-83 bg-gray-300  bg">
    
 
    
