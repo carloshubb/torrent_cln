@@ -1,21 +1,7 @@
 <template>
   <footer class="bg-sky-500 py-2 mt-8">
     <div class="max-w-7xl mx-auto px-4">
-      <div class="flex justify-center space-x-4 text-white text-sm">
-        <a href="#" class="hover:text-orange-800">1</a>
-        <a href="#" class="hover:text-gray-200">2</a>
-        <a href="#" class="hover:text-gray-200">3</a>
-        <a href="#" class="hover:text-gray-200">4</a>
-        <a href="#" class="hover:text-gray-200">5</a>
-        <a href="#" class="hover:text-gray-200">6</a>
-        <a href="#" class="hover:text-gray-200">7</a>
-        <a href="#" class="hover:text-gray-200">8</a>
-        <a href="#" class="hover:text-gray-200">9</a>
-        <a href="#" class="hover:text-gray-200">10</a>
-        <a href="#" class="hover:text-gray-200">11</a>
-        <a href="#" class="hover:text-gray-200">12</a>
-        <span>LAST</span>
-      </div>
+      
     </div>
     
     <div class="text-center text-white text-xs mt-4 pb-4">

@@ -93,7 +93,7 @@ const torrents1 = reactive([
       }
     ])
 const head_title = "Movie";
-const head_title1 = "Movie";
+const head_title1 = "Movie111";
 const dashboard_data = [];
 dashboard_data.push({data:torrents, title:head_title})
 dashboard_data.push({data:torrents1, title:head_title1})

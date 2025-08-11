@@ -23,3 +23,12 @@ Route::get('/detailpage', function () {
 Route::get('/test', function () {
     return Inertia::render('Test');
 });
+Route::get('/detailtable', function () {
+    return Inertia::render('DetailTable');
+});
+Route::get('/rules', function () {
+    return Inertia::render('Rules');
+});
+Route::get('/contact', function () {
+    return Inertia::render('Contact');
+});

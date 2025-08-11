@@ -37,28 +37,35 @@ class FectchExternalDataDaily extends Command
      */
     public function handle()
     {
-        $httpClient = HttpClient::create();
+        $httpClient = HttpClient::create([
+                'headers' => [
+                    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36',
+                ],
+                'timeout' => 30,
+            ]);
         $page = 1;
         $torrents = [];
         $catigories = Category::where('parent_id', null)->get();
+      
         foreach ($catigories as $index => $category) {
             $page = 1;
             while ($page < 151) {
                 $torrents = [];
                 $url = "https://1337x.to/cat/{$category->slug}/{$page}/";
+
                 $response = $httpClient->request('GET', $url);
-
+                 
                 $html = $response->getContent();
-
+                dd($html);
                 $crawler = new Crawler($html);
-
+                 dd($crawler);
                 $rows = $crawler->filter('div.table-list-wrap table > tbody > tr');
 
                 if ($rows->count() <= 1) {
                     $this->info("No data.");
                     break; // no more data
                 }
-
+                 dd($response);
                 $rows->each(function (Crawler $row, $i) use (&$torrents, $category) {
                     try {
                         $torrent = $this->extractTorrentData($row, $category);

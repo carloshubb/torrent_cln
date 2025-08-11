@@ -12,9 +12,7 @@
                 class="flex items-center text-gray-300 hover:text-orange-400 cursor-pointer transition-colors py-1"
                 @click="browseCategory(category)"
               >
-                <div class="w-4 h-4 bg-orange-600 rounded-sm mr-3 flex items-center justify-center">
-                  <div class="w-2 h-2 bg-white rounded-sm"></div>
-                </div>
+                
                 {{ category }}
               </div>
             </div>
@@ -105,18 +103,19 @@ export default {
     ])
 
     const browseCategories = [
-      'Trending Torrents',
-      'Movie library', 
-      'Top 100 Torrents',
-      'Anime',
-      'Applications',
-      'Documentaries',
-      'Games',
-      'Movies',
-      'Music',
-      'Other',
-      'Television',
-      'XXX'
+      '📈 Trending Torrents',
+      '📚 Movie library', 
+      '⭐ Top 100 Torrents',
+      '📺 Anime',
+      '💾 Applications',
+      '🎬 Documentaries',
+      '🎮 Games',
+      '🎬 Movies',
+      '🎵 Music',
+      '📄 Other',
+      '📺 Television',
+      '🔞 XXX'
+           
     ]
 
     const externalLinks = [
